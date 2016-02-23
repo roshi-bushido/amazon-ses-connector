@@ -1,0 +1,3 @@
+<!-- BEGIN_INCLUDE(amazon-ses:greet) -->
+    <amazon-ses:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(amazon-ses:greet) -->
